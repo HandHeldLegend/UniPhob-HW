@@ -34,18 +34,18 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,25 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|172308575|33179312|1216c4ad-09cb-4e1d-9282-2d8395c1b0f8|1714edfd-d439-4577-a43c-5b50c385e244",
+        "copper_edge_clearance|177855552|35571667|40e79388-bbb5-4533-9b79-a51d8bf839ee|916dbaec-6d84-4da3-a083-5a4ac3b8c8d6",
+        "copper_edge_clearance|71052519|40896361|9d0c89bf-5877-423a-a304-d80b3f47eefb|f75f6058-07b7-4e42-b442-6f14a59628e8",
+        "copper_edge_clearance|76771319|31994872|1f137d42-6fb8-43be-ab0b-f0fbd19ec3a4|a0a69164-2b48-45eb-900f-0359b5556575",
+        "courtyards_overlap|136735792|30195920|adeff913-400a-4d10-be27-fa47a5803696|c32da634-47cf-4e50-9456-351c87c87354",
+        "duplicate_footprints|66040000|70612000|9fa7cc1e-26eb-49cf-ba12-a904bd91a273|372d0ba6-dd2c-49a4-a6f5-02117ff3bab9",
+        "extra_footprint|66040000|70612000|9fa7cc1e-26eb-49cf-ba12-a904bd91a273|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|69340574|66624136|11de7b7b-439e-45b0-8d8b-5a794b14f49a|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|72423885|67187170|f9c99390-4e00-4b5e-aff5-cf1d292eb2f6|00000000-0000-0000-0000-000000000000",
+        "hole_clearance|66040868|75291160|8e23d803-9a61-4c79-92fc-c950782266ec|a31ba54b-2c4e-45c3-8f49-04373fe4baf2",
+        "hole_clearance|66240868|75291160|58c18825-d556-48a8-8501-0e22c6c132d8|a31ba54b-2c4e-45c3-8f49-04373fe4baf2",
+        "hole_clearance|71640868|75291160|f8324508-3c65-4824-98a6-7e649489ad1a|41a79aff-1fae-4cad-b1f9-f628043cb606",
+        "hole_clearance|71840868|75291160|845af8c3-8c5e-48df-8d57-a4bc1b0c515a|41a79aff-1fae-4cad-b1f9-f628043cb606",
+        "silk_edge_clearance|135120000|28641885|7558737b-dd46-44ad-b0af-4142ec2e75e0|1e3871c5-8996-4a55-8466-9a5f7e8d5481",
+        "silk_edge_clearance|136681206|58222962|c9bb08ce-6121-46a7-b09d-029da5924414|d31fd16a-320d-4f9a-94ff-ab7ecfbd376a",
+        "silk_edge_clearance|64150868|81194916|9503ffee-f66c-492a-86b2-6ad04d503453|83e1c3b8-93bd-40f3-a38f-f73f3e707810",
+        "silk_edge_clearance|73730868|81194893|65dbdcf2-2b57-4b41-88cf-2729633516f8|4a4630d2-b227-4401-8c15-9263f9fff5d2"
+      ],
       "meta": {
         "version": 2
       },
@@ -111,21 +129,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_copper_edge_clearance": 0.15,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -453,7 +471,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "uniphob_main.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

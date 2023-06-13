@@ -23,8 +23,8 @@
     (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 5b51c44e-5dba-4006-aed4-76c98537b45e))
   (fp_line (start -2.95 3.558) (end -2.95 2.658)
     (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 717c6736-2a95-4424-a35e-11020ba9e52f))
-  (pad "1" smd oval (at 0.012 -0.792) (size 3.25 2.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 232608f8-912a-4166-a0de-39b1cb11b107))
-  (pad "2" smd oval (at 0.012 3.108) (size 3.25 2.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2793627a-65fd-47ff-9e42-f17faae9587a))
+  (pad "1" smd oval (at 0.012 -0.792) (size 3.25 2.25) (layers "F.Cu" "F.Mask") (tstamp 232608f8-912a-4166-a0de-39b1cb11b107))
+  (pad "2" smd oval (at 0.012 3.108) (size 3.25 2.25) (layers "F.Cu" "F.Mask") (tstamp 2793627a-65fd-47ff-9e42-f17faae9587a))
   (model "${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
