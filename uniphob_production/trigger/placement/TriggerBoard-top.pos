@@ -1,0 +1,8 @@
+### Footprint positions - created on Tue Jun 13 22:16:14 2023 ###
+### Printed by KiCad version 7.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                   PosX       PosY       Rot  Side
+SW1       L         Trigger_Contact_Big   116.7980   -71.5880    0.0000  top
+SW2       R         Trigger_Contact_Big   100.0781   -71.4245  180.0000  top
+## End

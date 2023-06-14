@@ -1,0 +1,14 @@
+### Footprint positions - created on Tue Jun 13 22:18:07 2023 ###
+### Printed by KiCad version 7.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                 Package                                           PosX       PosY       Rot  Side
+C1        .047u               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    50.7786   -47.5988    0.0000  top
+C2        .047u               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    63.5000   -37.0840   90.0000  top
+J2        Conn_01x05_Socket   PinSocket_1x05_P2.00mm_Vertical                82.2970   -27.4320   90.0000  top
+R1        1k                  R_0402_1005Metric                              53.0387   -47.4111  -90.0000  top
+R2        1k                  R_0402_1005Metric                              63.6984   -34.8371    0.0000  top
+SW1       GL18_SW             GL18                                           52.0911   -35.7999    0.0000  top
+U1        GH39F_(Hall_SOT23)  GH39F                                          52.0911   -35.7999  -90.0000  top
+U2        GH39F_(Hall_SOT23)  GH39F                                          52.0911   -35.7999    0.0000  top
+## End

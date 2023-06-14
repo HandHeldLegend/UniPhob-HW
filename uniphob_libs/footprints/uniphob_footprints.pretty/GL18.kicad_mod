@@ -23,4 +23,9 @@
   (pad "S2" thru_hole circle (at -5.65 3.25) (size 1.25 1.25) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 09ff97b5-60ac-4d32-a00a-1aba9e8f4804))
   (pad "S3" thru_hole circle (at -10.15 -3.25) (size 1.25 1.25) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp e85a1c76-b5f2-41a9-9244-8ed1d7e0efaa))
   (pad "S4" thru_hole circle (at -10.15 3.25) (size 1.25 1.25) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp c04b65a8-e178-41a8-a04a-5964b6593746))
+  (model "${KIPRJMOD}/../uniphob_libs/models/GL18 GuliKit Electromagnetic Joystick 3D.stp"
+    (offset (xyz 0 0 6.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

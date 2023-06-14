@@ -1,0 +1,6 @@
+"#","Reference","Qty","Value","Footprint","DNP","MPN"
+"1","C1, C2","2",".047u","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","",""
+"2","J1","1","Conn_01x05_Pin","uniphob_footprints:molex_5034800540","",""
+"3","R1, R2","2","1k","Resistor_SMD:R_0402_1005Metric","",""
+"4","SW1","1","GL18_SW","uniphob_footprints:GL18","","GL18"
+"5","U1, U2","2","GH39F (Hall SOT23)","uniphob_footprints:GH39F","","GH39F"

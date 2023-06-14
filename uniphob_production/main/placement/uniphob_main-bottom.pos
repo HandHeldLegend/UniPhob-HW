@@ -1,0 +1,11 @@
+### Footprint positions - created on Tue Jun 13 22:13:51 2023 ###
+### Printed by KiCad version 7.0.2
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                           Package                                    PosX       PosY       Rot  Side
+J2        Conn_01x06_Female             GCC_Header_Straight_1x06_Pitch2.00mm   118.8080   -25.8782   90.0000  bottom
+J5        Conn_02x04_Counter_Clockwise  PinSocket_2x05_P2.00mm_Vertical        108.8080   -30.9880  -90.0000  bottom
+J7        Conn_01x05_Pin                molex_5034800540                       179.3240   -76.4540  180.0000  bottom
+RV1       Slider_GCC-Gamecube_MB        GCC_Slider                              99.0158   -37.1849  180.0000  bottom
+RV2       Slider_GCC-Gamecube_MB        GCC_Slider                             149.0158   -37.1849  180.0000  bottom
+## End

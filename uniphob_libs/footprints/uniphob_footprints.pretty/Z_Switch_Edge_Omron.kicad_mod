@@ -38,7 +38,7 @@
   (pad "1" thru_hole oval (at -2.25 0) (size 2.3 1.7) (drill 1.1 (offset 0.3 0)) (layers "*.Cu" "*.Mask") (tstamp 7ac44084-c1dc-4015-a922-dc80a6f881a6))
   (pad "2" thru_hole oval (at 2.25 0) (size 2.3 1.7) (drill 1.1 (offset -0.3 0)) (layers "*.Cu" "*.Mask")
     (thermal_gap 1) (tstamp 8f951d6e-9ccf-4235-880e-8d5088313bd5))
-  (pad "3" smd custom (at -5.2 -2) (size 0.8 0.8) (layers "B.Cu" "F.Paste" "B.Mask")
+  (pad "3" smd custom (at -5.2 -2) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -92,7 +92,7 @@
         )
         (width 0) (fill yes))
     ) (tstamp 64f09388-61e2-4ae4-8d10-94421d490a08))
-  (pad "4" smd custom (at 2.9 -2) (size 0.8 0.8) (layers "B.Cu" "F.Paste" "B.Mask")
+  (pad "4" smd custom (at 2.9 -2) (size 0.8 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
